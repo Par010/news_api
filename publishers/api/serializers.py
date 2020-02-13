@@ -14,6 +14,5 @@ class PublisherSerializer(ModelSerializer):
         model = Publisher
         fields = [
             'id',
-            'name',
-            'description'
+            'name'
         ]
