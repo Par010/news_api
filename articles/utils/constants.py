@@ -1,0 +1,30 @@
+# country options
+AUSTRALIA = 'AU'
+USA = 'US'
+CANADA = 'CA'
+
+# category options
+BUSINESS = 'BU'
+ENTERTAINMENT = 'EN'
+GENERAL = 'GN'
+HEALTH = 'HE'
+SCIENCE = 'SC'
+SPORTS = 'SP'
+TECHNOLOGY = 'TE'
+
+
+COUNTRY_OPTIONS = (
+    (AUSTRALIA, 'AUSTRALIA'),
+    (USA, 'USA'),
+    (CANADA, 'CA')
+)
+
+CATEGORY_OPTIONS = (
+    (BUSINESS, 'BUSINESS'),
+    (ENTERTAINMENT, 'ENTERTAINMENT'),
+    (HEALTH, 'HEALTH'),
+    (SCIENCE, 'SCIENCE'),
+    (GENERAL, 'GENERAL'),
+    (SPORTS, 'SPORTS'),
+    (TECHNOLOGY, 'TECHNOLOGY')
+)
