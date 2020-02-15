@@ -18,6 +18,9 @@ from articles.models import Article
 
 
 class ArticleFilter(filters.FilterSet):
+    """
+    This class handles Filtering for Article model
+    """
     published_at_gte = filters.DateTimeFilter(field_name="published_at", lookup_expr='gte')
     published_at_lte = filters.DateTimeFilter(field_name="published_at", lookup_expr='lte')
 
@@ -27,6 +30,9 @@ class ArticleFilter(filters.FilterSet):
 
 
 class ArticleViewSet(ReadOnlyModelViewSet):
+    """
+    This class handles view for Article model. This is a read-only view.
+    """
     serializer_class = ArticleSerializer
     pagination_class = Pagination
     permission_classes = [AllowAny]

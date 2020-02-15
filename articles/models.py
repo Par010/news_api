@@ -9,6 +9,9 @@ from publishers.models import Publisher
 
 
 class Article(models.Model):
+    """
+    This class handles Article model
+    """
     source = models.ForeignKey(Publisher, on_delete=models.CASCADE, blank=True, null=True,
                                related_name='article_to_publisher')
     country = models.CharField(max_length=2, default=AUSTRALIA, choices=COUNTRY_OPTIONS)

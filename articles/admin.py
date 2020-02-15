@@ -7,6 +7,9 @@ from .models import Article
 
 
 class ArticleAdmin(admin.ModelAdmin):
+    """
+    This class handles admin panel for Article model
+    """
     list_display = ['id', 'title', 'author']
     list_display_links = ['id']
     search_fields = ['title', 'author', 'description', 'category', 'content']

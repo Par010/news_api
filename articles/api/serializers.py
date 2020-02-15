@@ -12,6 +12,9 @@ from articles.models import Article
 
 
 class ArticleSerializer(ModelSerializer):
+    """
+    This class handles serializer for Article model
+    """
     source = PublisherSerializer(many=False, read_only=True)
     urlToImage = ReadOnlyField(source='url_to_image')
 

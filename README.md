@@ -1,4 +1,6 @@
-# Backend
+# NEWS API
+
+## This API is deployed [here](https://hitori-newsapp.herokuapp.com/api/articles/)
 
 ### Local Deployement
 
