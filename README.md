@@ -1,7 +1,7 @@
 # NEWS API
 
-## This API is deployed [here](https://hitori-newsapp.herokuapp.com/api/articles/)
-
+## This API is deployed [here](https://hitori-newsapp.herokuapp.com/api/articles/) with [documentation](https://documenter.getpostman.com/view/2771790/SzKPWh8P?version=latest)
+m
 ### Local Deployement
 
 ##### First of all create a virtual environment for python. Depending on the OS [follow these instructions](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
